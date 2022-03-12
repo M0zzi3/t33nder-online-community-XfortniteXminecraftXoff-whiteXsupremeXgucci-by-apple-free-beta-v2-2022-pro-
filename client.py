@@ -23,6 +23,7 @@ def send_message(msg):
 
 send_message("Hello world")
 send_message("I like jazz")
+send_message("tfuj stary pijany")
 send_message(DISCONNECT_MESSAGE)
 
 
