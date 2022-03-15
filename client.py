@@ -4,7 +4,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = '!DISCONNECT'
-SERVER = "192.168.56.1"
+SERVER = "172.18.1.211"
 ADDR = (SERVER, PORT)
 
 
@@ -20,10 +20,4 @@ def send_message(msg):
     client.send(send_length)
     client.send(message)
     print(client.recv(2048))
-
-send_message("Hello world")
-send_message("I like jazz")
-send_message("tfuj stary pijany")
-send_message(DISCONNECT_MESSAGE)
-
 
