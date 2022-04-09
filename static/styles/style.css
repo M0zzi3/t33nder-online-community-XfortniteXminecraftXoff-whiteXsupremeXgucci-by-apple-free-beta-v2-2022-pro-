@@ -1,0 +1,45 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  margin: 0 auto;
+  width: 1200px;
+
+  background-color: #ced4da;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: auto 3fr 1fr 1fr;
+  grid-gap: 10px;
+
+
+  background-color: #ff0000;
+}
+
+footer{
+  background-color: aqua;
+  height: 20px;
+  margin-top: 200px;
+}
+
+.logo{
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 50px;
+}
+
+.user_profpicture{
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.user_messages{
+  grid-column: 3  ;
+  grid-row:1;
+}
+
+
+
